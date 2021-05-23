@@ -12,11 +12,11 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: 'http://localhost:3000',
+        href: 'https://festive-williams-1b7847.netlify.app/',
       },
       {
         label: 'Liquidity',
-        href: 'http://localhost:3000/#/pool',
+        href: 'https://festive-williams-1b7847.netlify.app/#/pool',
       },
     ],
   },
@@ -85,11 +85,11 @@ const config: MenuEntry[] = [
       },
     ],
   },
-  {
-    label: 'Partnerships/IFO',
-    icon: 'GooseIcon',
-    href: 'https://docs.google.com/forms/d/e/1FAIpQLSe7ycrw8Dq4C5Vjc9WNlRtTxEhFDB1Ny6jlAByZ2Y6qBo7SKg/viewform?usp=sf_link',
-  },
+  // {
+  //   label: 'Partnerships/IFO',
+  //   icon: 'GooseIcon',
+  //   href: 'https://docs.google.com/forms/d/e/1FAIpQLSe7ycrw8Dq4C5Vjc9WNlRtTxEhFDB1Ny6jlAByZ2Y6qBo7SKg/viewform?usp=sf_link',
+  // },
   {
     label: 'Audit by Hacken',
     icon: 'AuditIcon',
