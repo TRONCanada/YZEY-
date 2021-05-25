@@ -12,11 +12,11 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: 'https://festive-williams-1b7847.netlify.app/',
+        href: 'https://exchange.pancakeswap.finance/#/swap?inputCurrency=ETH&outputCurrency=0x3DcB9fC7DF6f5aF630eEd95292da0521B6e6Df61',
       },
       {
         label: 'Liquidity',
-        href: 'https://festive-williams-1b7847.netlify.app/#/pool',
+        href: 'https://exchange.pancakeswap.finance/#/add/0x3DcB9fC7DF6f5aF630eEd95292da0521B6e6Df61/BNB',
       },
     ],
   },
