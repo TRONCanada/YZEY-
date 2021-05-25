@@ -9,11 +9,13 @@ import CakeStats from './components/CakeStats'
 import TotalValueLockedCard from './components/TotalValueLockedCard'
 import TwitterCard from './components/TwitterCard'
 
+
 const Hero = styled.div`
   align-items: center;
-  background-image: url('/images/egg/3.png');
+  background-image: url('https://i.ibb.co/qsgN8vg/Pngtree-distant-beings-and-weed-cartoon-6077086.png');
   background-repeat: no-repeat;
   background-position: top center;
+  background-size: contain;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -23,9 +25,10 @@ const Hero = styled.div`
   text-align: center;
 
   ${({ theme }) => theme.mediaQueries.lg} {
-    background-image: url('/images/egg/3.png'), url('/images/egg/3b.png');
+    background-image: url('https://i.ibb.co/Mh9J55K/Pngtree-runar-comic-weed-cartoon-6223202.png'), url('https://i.ibb.co/qsgN8vg/Pngtree-distant-beings-and-weed-cartoon-6077086.png');
     background-position: left center, right center;
     height: 165px;
+    background-size: contain;
     padding-top: 0;
   }
 `
@@ -60,7 +63,7 @@ const Home: React.FC = () => {
     <Page>
       <Hero>
         <Heading as="h1" size="xl" mb="24px" color="secondary">
-          {TranslateString(576, 'Goose Finance')}
+          {TranslateString(576, 'Turtle Finance')}
         </Heading>
         <Text>{TranslateString(578, 'Top 3 best DEFI app on Binance Smart Chain.')}</Text>
       </Hero>

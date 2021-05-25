@@ -13,7 +13,8 @@ const GlobalStyle = createGlobalStyle`
   }
   body {
     background-color: ${({ theme }) => theme.colors.background};
-
+    background-image: url('https://i.ibb.co/RDvFjX0/pattern-med-03-med-08.png') !important;
+    
     img {
       height: auto;
       max-width: 100%;

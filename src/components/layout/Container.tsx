@@ -6,6 +6,7 @@ const Container = styled.div`
   max-width: 992px;
   padding-left: 16px;
   padding-right: 16px;
+  background-image: url('./images/pattern_med_03_med_08.png') !important;
 
   ${({ theme }) => theme.mediaQueries.sm} {
     padding-left: 24px;
