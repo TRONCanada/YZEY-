@@ -179,7 +179,7 @@ const farms: FarmConfig[] = [
   //   quoteTokenAdresses: contracts.wbnb,
   // },
   {
-    pid: 3,
+    pid: 4,
     risk: 5,
     isTokenOnly: true,
     lpSymbol: 'WEED',
